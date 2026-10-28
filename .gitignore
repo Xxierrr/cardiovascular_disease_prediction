@@ -1,0 +1,80 @@
+# ==============================
+# Python virtual environments
+# ==============================
+.venv
+
+# ==============================
+# Python cache files
+# ==============================
+__pycache__
+
+# ==============================
+# Jupyter notebooks
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Large datasets and archives
+# ==============================
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.arrow
+
+# ==============================
+# ML artifacts not required for deployment
+# Keep the production model below
+# ==============================
+*.pkl
+*.pickle
+*.onnx
+*.pt
+*.pth
+*.keras
+*.safetensors
+*.joblib
+
+# Keep the trained model required by FastAPI and CI
+!models/model.joblib
+
+# ==============================
+# Logs and test reports
+# ==============================
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# IDE and operating system files
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Secrets and environment files
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Build artifacts
+# ==============================
+build/
+dist/
+*.egg-info/
+
+cardiovascular_disease_dataset.zip
+
+cardio_train.csv

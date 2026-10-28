@@ -1,0 +1,10 @@
+.venv
+__pycache__
+.pytest_cache
+.git
+.github
+.gitignore
+.dockerignore
+Notes
+cardio_train.csv
+cardiovascular_disease_dataset.zip
